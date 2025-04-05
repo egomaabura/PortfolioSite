@@ -5,6 +5,10 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+### Hard Cording ※後で直す ###
+portfolio\src\main\resources\templates\skillsheet.html
+portfolio\src\main\resources\static\css\skillsheet.css
+
 ### STS ###
 .apt_generated
 .classpath

@@ -1,0 +1,17 @@
+spring:
+    application:
+        name: portfolio
+
+    ##################################
+    # DatabaseSetting
+    ##################################
+    datasource:
+        url: jdbc:mysql://localhost:3306/portfolio_site
+        username: springuser
+        password: ${SPRINGUSER_PASSWORD}
+        driver-class-name: com.mysql.cj.jdbc.Driver
+    sql:
+        init:
+            mode: never
+            # schema-locations: classpath:chema.sql
+            # data-locations: classpath:data.sql
